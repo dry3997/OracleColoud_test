@@ -10,7 +10,7 @@
 		FROM employees e
 	</select>
 	
-	<select id="getEmp" resultMap="EmpVO">
+	<select id="getEmp" resultType="EmpVO">
 		select *
 		from employees
 		where employee_id = #{employeeId}
