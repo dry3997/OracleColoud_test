@@ -9,10 +9,4 @@
 		SELECT rownum id, e.*
 		FROM employees e
 	</select>
-	
-	<select id="getEmp" resultMap="EmpVO">
-		select *
-		from employees
-		where employee_id = #{employeeId}
-	</select>
 </mapper>
